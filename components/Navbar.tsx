@@ -10,7 +10,9 @@ export default function Navbar() {
             <div className="flex items-center gap-6">
                 <Link href="/" className="text-sm hover:text-gray-500">Home</Link>
                 <Link href="/about" className="text-sm hover:text-gray-500">About</Link>
-                <Button size="sm">Contact</Button>
+                <Link href="/contact">
+                    <Button size="sm">Contact</Button>
+                </Link>
             </div>
         </nav>
     );
